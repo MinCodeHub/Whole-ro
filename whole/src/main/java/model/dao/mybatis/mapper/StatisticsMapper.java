@@ -1,9 +1,9 @@
 package model.dao.mybatis.mapper;
 import java.util.List;
-
 import org.apache.ibatis.annotations.Select;
-
 import model.dto.FoodDTO;
+
+//mapper interface
 public interface StatisticsMapper {
 	
 	@Select({"SELECT title FROM FOOD JOIN POST USING (post_id) WHERE is_healthy = 'RED' AND writer_id = #{userId}"})
