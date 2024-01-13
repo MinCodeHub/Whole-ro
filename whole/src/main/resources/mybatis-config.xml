@@ -26,5 +26,6 @@
 		<mapper class="model.dao.mybatis.mapper.StatisticsMapper" />
 		<mapper class="model.dao.mybatis.mapper.WithwithMapper" />
 		<mapper class="model.dao.mybatis.mapper.UpdatePwMapper" />
+		<mapper class="model.dao.mybatis.mapper.SearchFoodMapper" />
 	</mappers>
 </configuration>
