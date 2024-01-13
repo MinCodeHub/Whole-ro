@@ -58,7 +58,7 @@ public class RequestMapping {
 		mappings.put("/myRefg/post", new FoodCreateController());
 		mappings.put("/myRefg/delete", new FoodDeleteController());
 
-		mappings.put("/myRefg/search/title", new SearchFoodTitleController());
+		mappings.put("/myRefg/list/search", new SearchFoodTitleController()); //음식 검색 컨트롤러 매핑
 		mappings.put("/myRefg/post/update", new FoodUpdateController());
 		mappings.put("/myRefg/search/exp", new SearchFoodExpController());
 

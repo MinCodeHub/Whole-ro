@@ -60,7 +60,14 @@
 				</c:forEach></p>
 				</c:if>
 			</div>
-
+			<div class="search-food">
+			<form class="search-form" name="searchform" method="GET"
+				action="<c:url value='/myRefg/list/search'/>">
+				    <input type="text" class="search" name="food" placeholder="음식의 이름을 검색하세요."/>
+   					 <input class="search-submit" type="submit" value="검색"/>	
+			</form>
+			
+			</div>
 			<div class="sub_logo">
 				<img src="/whole/img/market/Logo.png" alt=" " width="350px" height="300px" />
 			</div>
